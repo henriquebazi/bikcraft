@@ -1,120 +1,161 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/grid.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/portfolio.css">
-  <title>BikeCraft - portfolio</title>
-</head>
-<body>
-  <header class="header">
-    <div class="container">
-      <a href="./index.html" class="grid-4">
-      <img src="./img/bikcraft.png" alt="Logo BikeCraft">
-    </a>
-    <nav class="header_menu grid-12">
-      <ul>
-        <li><a href="./sobre.html">Sobre</a></li>
-        <li><a href="./produtos.html">Produtos</a></li>
-        <li><a href="./portfolio.html" class="menu_ativo">Portfólio</a></li>
-        <li><a href="./contato.html">Contato</a></li>
-      </ul>
-    </nav>
-    </div>
-  </header>
-
-  <section class="introducao-interna interna_portfolio">
-    <div class="container">
-      <h1>Portfólio</h1>
-      <p>conheça os projetos que amamos mostrar</p>
-    </div>
-  </section>
-
-  <section class="container">
-    <blockquote class="quote_clientes">
-      <p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
-      <cite>Barbara Moss</cite>
-    </blockquote>
-  </section>
-
-  <section class="portfolio">
-    <div class="container">
-      <h2 class="subtitulo">portfolio</h2>
-      <ul class="portfolio_lista">
-        <li class="grid-8">
-          <img src="./img/portfolio/bike-esporte.png" alt="Bicicleta Passeio">
-        </li>
-        <li class="grid-8">
-          <img src="./img/portfolio/bike-retro.png" alt="Bicicleta Retro">
-        </li>
-        <li class="grid-16">
-          <img src="./img/portfolio/bike-passeio.png" alt="Biciclieta Passeio">
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="quebra">
-    <blockquote class="quote-externo container">
-      <p>"o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana."</p>
-      <cite>WILLIAM MORRIS</cite>
-    </blockquote>
-  </section>
-
-  <footer>
-    <div class="footer">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link rel="stylesheet" href="./css/resposivo.css" />
+    <title>BikeCraft - portfolio</title>
+  </head>
+  <body>
+    <header class="header">
       <div class="container">
-        <div class="grid-8 footer_historia">
-          <h3>Nossa História</h3>
-          <p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida contidiana.</p>
-        </div>
-        
-        <div class="grid-4 footer_contato">
-          <h3>Contato</h3>
+        <a href="./index.html" class="grid-4">
+          <img src="./img/bikcraft.png" alt="Logo BikeCraft" />
+        </a>
+        <nav class="header_menu grid-12">
           <ul>
-            <li>- 21 2323-4242</li>
-            <li>- contato@bikcraft.com</li>
-            <li>- Botafogo - RJ</li>
+            <li><a href="./sobre.html">Sobre</a></li>
+            <li><a href="./produtos.html">Produtos</a></li>
+            <li><a href="./portfolio.html" class="menu_ativo">Portfólio</a></li>
+            <li><a href="./contato.html">Contato</a></li>
           </ul>
-        </div>
-
-        <div class="grid-4 footer_midias">
-          <h3>Redes Sociais</h3>
-          <ul>
-            <li>
-              <a href="https://facebook.com" target="_blank">
-                <img src="./img/redes/face.png">
-              </a>
-            </li>
-            <li>
-              <a href="https://instagram.com" target="_blank">
-                <img src="./img/redes/insta.png">
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com" target="_blank">
-                <img src="./img/redes/twitter.png">
-              </a>
-            </li>
-          </ul>
-        </div>
-
+        </nav>
       </div>
-    </div>
+    </header>
 
-    <div class="copy">
+    <section class="introducao-interna interna_portfolio">
       <div class="container">
-        <p class="grid-16">
-          BikCraft 2021 - Alguns direitos reservados.
+    <script src="./js/simple-slide.js"></script>
+        <h1 data-anime="400" class="fadeInDown">Portfólio</h1>
+        <p data-anime="800" class="fadeInDown" >conheça os projetos que amamos mostrar</p>
+      </div>
+    </section>
+
+    <section class="container fadeInDown" data-slide="quote" data-anime="1200">
+      <blockquote class="quote_clientes">
+        <p>
+          "No mundo atual, a contínua expansão de nossa atividade cumpre um
+          papel essencial na formulação da gestão inovadora da qual fazemos
+          parte."
         </p>
-      </div>
-    </div>
-  </footer>
+        <cite>Barbara Moss</cite>
+      </blockquote>
+      <blockquote class="quote_clientes">
+        <p>
+          "No mundo atual, a contínua expansão de nossa atividade cumpre um
+          papel essencial na formulação da gestão inovadora da qual fazemos
+          parte."
+        </p>
+        <cite>Barbara Moss</cite>
+      </blockquote>
+    </section>
 
-  <script src="./app.js"></script>
-</body>
+    <section class="portfolio fadeInDown" data-anime="1600">
+      <div class="container" data-slide="portfolio">
+        <ul class="portfolio_lista">
+          <li class="grid-8">
+            <img
+              src="./img/portfolio/bike-esporte.png"
+              alt="Bicicleta Passeio"
+            />
+          </li>
+          <li class="grid-8">
+            <img src="./img/portfolio/bike-retro.png" alt="Bicicleta Retro" />
+          </li>
+          <li class="grid-16">
+            <img
+              src="./img/portfolio/bike-passeio.png"
+              alt="Biciclieta Passeio"
+            />
+          </li>
+        </ul>
+        <ul class="portfolio_lista">
+          <li class="grid-8">
+            <img
+              src="./img/portfolio/bike-retro.png"
+              alt="Bicicleta Passeio"
+            />
+          </li>
+          <li class="grid-8">
+            <img src="./img/portfolio/bike-esporte.png" alt="Bicicleta Retro" />
+          </li>
+          <li class="grid-16">
+            <img
+              src="./img/portfolio/bike-passeio.png"
+              alt="Biciclieta Passeio"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="quebra">
+      <blockquote class="quote-externo container">
+        <p>
+          "o verdadeiro segredo da felicidade está em ter um genuíno interesse
+          por todos os detalhes da vida cotidiana."
+        </p>
+        <cite>WILLIAM MORRIS</cite>
+      </blockquote>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="grid-8 footer_historia">
+            <h3>Nossa História</h3>
+            <p>
+              O verdadeiro segredo da felicidade está em ter um genuíno
+              interesse por todos os detalhes da vida contidiana.
+            </p>
+          </div>
+
+          <div class="grid-4 footer_contato">
+            <h3>Contato</h3>
+            <ul>
+              <li>- 21 2323-4242</li>
+              <li>- contato@bikcraft.com</li>
+              <li>- Botafogo - RJ</li>
+            </ul>
+          </div>
+
+          <div class="grid-4 footer_midias">
+            <h3>Redes Sociais</h3>
+            <ul>
+              <li>
+                <a href="https://facebook.com" target="_blank">
+                  <img src="./img/redes/face.png" />
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank">
+                  <img src="./img/redes/insta.png" />
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com" target="_blank">
+                  <img src="./img/redes/twitter.png" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="copy">
+        <div class="container">
+          <p class="grid-16">BikCraft 2021 - Alguns direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/simple-slide.js"></script>
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
 </html>

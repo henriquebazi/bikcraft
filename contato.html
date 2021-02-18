@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/grid.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/contato.css">
+  <link rel="stylesheet" href="./css/resposivo.css">
   <title>BikeCraft - Contato</title>
 </head>
 <body>
@@ -29,12 +30,12 @@
 
   <section class="introducao-interna interna_contato">
     <div class="container">
-      <h1>Contato</h1>
-      <p>tire suas dúvidas com a gente</p>
+      <h1 data-anime="400" class="fadeInDown">Contato</h1>
+      <p data-anime="800" class="fadeInDown">tire suas dúvidas com a gente</p>
     </div>
   </section>
 
-  <section class="contato">
+  <section class="contato fadeInDown" data-anime="1200">
     <div class="container">
       <form id="form_orcamento" class="contato-form grid-8">
         <label for="nome">Nome</label>
@@ -140,6 +141,7 @@
     </div>
   </footer>
 
-  <script src="./app.js"></script>
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/app.js"></script>
 </body>
 </html>
